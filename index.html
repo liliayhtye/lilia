@@ -14,9 +14,27 @@
 			background-size: cover;
 		}
 
+		.container {
+    			position: relative;
+   			 width: 100%;
+    			height: 0;
+    			padding-bottom: 56.25%;
+		}
+		.video {
+    			position: absolute;
+    			top: 0;
+    			left: 0;
+    			width: 100%;
+    			height: 100%;
+		}
+
 	</style>
 </head>
 <body>
+<div class="container">
+<iframe src="https://www.youtube.com/embed/ekPKLhWmOTc" 
+frameborder="0" allowfullscreen class="video"></iframe>
+</div>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
