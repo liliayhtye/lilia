@@ -25,6 +25,21 @@
     b {
       font-weight: 600;
     }
+
+    .videocontainer {
+          position: relative;
+        width: 100%;
+          height: 0;
+          padding-bottom: 56.25%;
+    }
+    .video {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+    }
+    
   </style>
 
 </head>
@@ -52,8 +67,9 @@
 <img class="img-responsive" src="img/lilia-hero.jpg" alt="Lilia">
 </div>
 
-<div class="container-fluid">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ekPKLhWmOTc" frameborder="0" allowfullscreen></iframe>
+<div class="videocontainer">
+<iframe src="https://www.youtube.com/embed/ekPKLhWmOTc" 
+frameborder="0" allowfullscreen class="video"></iframe>
 </div>
 
 <div class="container-fluid">
